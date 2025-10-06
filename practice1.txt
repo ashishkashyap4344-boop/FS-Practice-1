@@ -1,0 +1,6 @@
+db.demo.insertMany([
+  { "name": "Laptop", "price": 1200, "category": "Electronics" },
+  { "name": "Wireless Mouse", "price": 25, "category": "Accessories" },
+  { "name": "Notebook", "price": 5, "category": "Stationery" }
+]);
+db.demo.find({});
